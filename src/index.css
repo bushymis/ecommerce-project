@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        justify-content: center;
+        height: 10vm;
+    }
+
+    .product-search {
+        font-size: 12px;
+        padding: 15px;
+        border-color: #d8d8d8;
+        width: 570px;
+        height: 38px;
+    }
+
+    .eshop-logo {
+        min-width: 70px
+    }
+}
